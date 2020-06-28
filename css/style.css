@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    float: left;
+    background-image: url(../photo_2020-03-29_14-54-32.jpg) ;
+    background-size: cover;
+    background-position: center
+}
+.btn{
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.abc{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.minbtn{
+    float: left;
+    background: #adad32;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+cursor: pointer;
+}
+.navigation{
+    width:100%;
+    float: left;
+    color: white;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 20pt;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.navigation ul{
+    
+    float: right;
+    margin-top: 44px;
+    margin-left: 10%;
+}
+.navigation li{
+    display: inline-block;
+    margin-right: 43px; 
+    border: 3px solid #ff000000;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.navigation a{
+   text-decoration: none;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14pt;
+   color: white;
+   font-weight: 600;
+}
+
+
+.navigation li:hover{
+    border: 3px solid white;
+}
+.bigbox_text{
+    width: 100%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 52pt;
+    color:white;
+    margin-top: 175px;
+   
+    
+}
+.bigbox-textmini{
+    width: 100%;
+    float:left;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.header_big_box_btn{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 201px;
+    margin-top: 50px;
+}
+.header_btn{
+    padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    background: #ff4e50;
+    color: white; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+.main{
+    width: 100%;
+    float: left;
+    border: 1px solid red;
+    
+}
+.main_zagolovok{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 22pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.main_box_reviews{
+    margin-right:50px;
+    
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid white;
+    display: flex
+}
+.main_box_reviews_minibox{ 
+    width: 200px;
+    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main_box_reviews_minibox_img1{
+    width: 125px;
+    height: 125px;
+    background-image: url(../Layer%206@1X.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+}
+.main_box_reviews_minibox_img2{
+    width: 125px;
+    height: 125px;
+    background-image: url(../Layer%208@1X.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto; }
+.main_box_reviews_minibox_img3{
+    width: 125px;
+    height: 125px;
+    background-image: url(../Layer%209@1X.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto; }
+.main_box_reviews_minibox_img4{
+    width: 125px;
+    height: 125px;
+    background-image: url(../Layer%207@1X.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto; }
+
+
+.main_box_reviews_minibox_img_miniimg1{
+    padding: 10px;
+    background: #ff4e50;
+    margin-left: 70%;
+    margin-top: 88px;
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.main_box_reviews_minibox_img_miniimg2{
+    padding: 10px;
+    background: #1CD7AD;
+    margin-left: 70%;
+    margin-top: 88px;
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 50%;
+    border: 3px solid white; 
+}
+.main_box_reviews_minibox_img_miniimg3{
+    padding: 10px;
+    background: #FFA507;
+    margin-left: 70%;
+    margin-top: 88px;
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 50%;
+    border: 3px solid white; 
+}
+.main_box_reviews_minibox_img_miniimg4{
+    padding: 10px;
+    background: #4E73DB;
+    margin-left: 70%;
+    margin-top: 88px;
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 50%;
+    border: 3px solid white; 
+}
+.main_box_reviews_minibox_title{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: bold
+    
+}
+.main_box_reviews_minibox_textbox{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgba(102, 102, 102, 255);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_big_box_rom{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+   
+}
+.header_rom{
+    
+    padding: 9pt;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    background: white;
+    color:#ff4e50 ; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 14pt;
+     border: 4px solid #ff4e50
+}
+.header_rom:hover{
+     color:white ; 
+    background:#ff4e50;
+}
+
+
+
+
+
+
+
+@media (min-width:729px) and (max-width:1279px){
+    .bigbox_text{
+        color:red;
+    }
+    
+   .main_box_reviews{
+     display: block;
+       width: 590px;
+       margin: auto
+    }
+    .main_box_reviews_minibox{
+        float: left;
+    }
+    
+}
+@media (min-width:0px) and (max-width:768px){
+    .main_box_reviews{
+     display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+       margin: auto
+}
+    .logo{
+        margin-left: 0;
+        margin-top: 172px;
+    }
+    .navigation{
+       display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+          }  
+     }
